@@ -1,0 +1,19 @@
+{
+  "name": "github-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martins-wescley/GitHub-Info.git"
+  },
+  "author": "Wescley Martins Sardinha Teixeira <wescleymartins02@gmail.com> (https://github.com/martins-wescley)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martins-wescley/GitHub-Info/issues"
+  },
+  "homepage": "https://github.com/martins-wescley/GitHub-Info#readme"
+}
