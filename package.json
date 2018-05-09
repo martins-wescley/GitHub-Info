@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap && cp -r node_modules/jquery/jquery.min.js src/components/jquery && cp -r node_modules/popper.js/dist src/components/popper.js",
+    "postinstall": "cp -r node_modules/bootstrap/dist src/components/bootstrap && cp -r node_modules/jquery/jquery.min.js src/components/jquery && cp -r node_modules/popper.js/dist src/components/popper.js && cp -r node_modules/angular src/components/angular",
     "gulp": "gulp"
   },
   "repository": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/martins-wescley/GitHub-Info#readme",
   "dependencies": {
+    "angular": "^1.6.9",
     "bootstrap": "^4.1.1",
     "jquery": "^1.9.1",
     "mkdirp": "^0.5.1",
